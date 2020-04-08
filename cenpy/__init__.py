@@ -5,6 +5,7 @@ from . import explorer
 from .remote import APIConnection as _APIConnection
 from .tools import _load_sitekey, set_sitekey
 from .products import *
+from . import moe
 
 SITEKEY = _load_sitekey()
 
